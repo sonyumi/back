@@ -1,4 +1,4 @@
-package q1008;
+package q2753;
 
 import java.util.Scanner;
 
@@ -6,10 +6,13 @@ public class Main {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		double a = sc.nextInt();
-		double b = sc.nextInt();
+		int a = sc.nextInt();
 		sc.close();
-		double c = a / b;
-		System.out.print(c);
+
+		if (a%4==0 && a%100>0 || a%400==0) {
+			System.out.print("1");
+		}else {
+			System.out.print("0");
+		}
 	}
 }

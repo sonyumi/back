@@ -1,4 +1,4 @@
-package q1008;
+package q18108;
 
 import java.util.Scanner;
 
@@ -6,10 +6,8 @@ public class Main {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		double a = sc.nextInt();
-		double b = sc.nextInt();
+		int a = sc.nextInt();
 		sc.close();
-		double c = a / b;
-		System.out.print(c);
+		System.out.println(a - 543);
 	}
 }

@@ -1,4 +1,4 @@
-package q1008;
+package q10926;
 
 import java.util.Scanner;
 
@@ -6,10 +6,8 @@ public class Main {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		double a = sc.nextInt();
-		double b = sc.nextInt();
-		sc.close();
-		double c = a / b;
-		System.out.print(c);
+		String a = sc.nextLine();
+
+		System.out.print(a + "??!");
 	}
 }

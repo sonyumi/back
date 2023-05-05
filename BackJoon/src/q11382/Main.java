@@ -1,4 +1,4 @@
-package q1008;
+package q11382;
 
 import java.util.Scanner;
 
@@ -6,10 +6,11 @@ public class Main {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		double a = sc.nextInt();
-		double b = sc.nextInt();
+		long A = sc.nextLong();
+		long B = sc.nextLong();
+		long C = sc.nextLong();
 		sc.close();
-		double c = a / b;
-		System.out.print(c);
+		long D = A + B + C;
+		System.out.println(D);
 	}
 }
